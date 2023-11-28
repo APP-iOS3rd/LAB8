@@ -15,7 +15,7 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment: .bottom){
             TabView(selection: $selectedTab){
-                HomeView()
+                MainView()
                     .tag(0)
                 
                 CommunityView()
