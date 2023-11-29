@@ -35,8 +35,8 @@
 - 필터 기능으로 다양한 선택 기준을  제시
 - 상세페이지 에서 음식점, 카페에 대한 세부 정보를 제공
 
-|`메인 페이지`|`게시판 페이지`|`게시판(필터)`| `상세 페이지`|
+|`메인 페이지`|`게시판 페이지`|`게시판 페이지(필터)`| `상세 페이지`|
 |-------|-------|-------|-------|
-|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400"> 
+|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/detail.png"  width="200" height="400"> 
 
 
