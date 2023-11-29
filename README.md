@@ -5,10 +5,10 @@
 <details>
 <summary>앱 프리뷰</summary>
 <div markdown="1">
-<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_01.png"  width="180" height="380">
-<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_02.png"  width="180" height="380">
-<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_03.png"  width="180" height="380">
-<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_04.png"  width="180" height="380">
+<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_01.png"  width="200" height="400">
+<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_02.png"  width="200" height="400">
+<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_03.png"  width="200" height="400">
+<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_04.png"  width="200" height="400">
 </div>
 </details>
 
