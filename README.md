@@ -37,6 +37,6 @@
 
 |`메인 페이지`|`게시판 페이지`|`게시판(필터)`| `상세 페이지`|
 |-------|-------|-------|-------|
-|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400"> 
+|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400"> 
 
 
