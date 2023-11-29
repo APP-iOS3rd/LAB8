@@ -12,6 +12,7 @@ struct FeedView: View {
     @State var hideSearchBar = false
     @State var searchText: String = ""
     @State var isEditing: Bool = false
+    @State var isPresented : Bool = false
     
     var body: some View {
         VStack {
@@ -22,6 +23,21 @@ struct FeedView: View {
                     .animation(.easeOut.speed(1.5))
                     .padding(.horizontal, 16)
                     .padding(.vertical, 8)
+            
+            VStack(alignment: .leading){
+                Button(action: filterButton, label: {
+                    Text("필터")
+                })
+                .sheet(isPresented: $isPresented, content: {
+                    FIlterView()
+                        .presentationDetents([.fraction(0.8)])
+                        .presentationCornerRadius(50)
+                    
+                })
+                Divider()
+            }
+            .padding(.horizontal, 20)
+            
                 
             // 검색창 활성화 상태에 따라서 다른 뷰를 보여줌
             if isEditing {
@@ -31,6 +47,11 @@ struct FeedView: View {
                     .offset(y: hideSearchBar ? -40 : 0)
             }
         }
+    }
+    
+    // 필터 on, off 함수
+    func filterButton() {
+        isPresented = true
     }
 }
 
