@@ -29,7 +29,7 @@
 
 |`시작 페이지(로그인)`|`마이페이지`|`설정 페이지`|
 |-------|-------|-------|
-|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/main.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/mypage.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400">
+|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/main.png"  width="180" height="380">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/mypage.png"  width="180" height="380">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="180" height="380">
 
 #### 지역별 놀거리 추천
 > 카테고리 별로 맛집 카페등 놀거리를 추천
@@ -39,7 +39,7 @@
 
 |`메인 페이지`|`게시판 페이지`|`게시판(필터)`| `상세 페이지(시설)`|
 |-------|-------|-------|-------|
-|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400"> 
+|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png" width="180" height="380">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="180" height="380">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png" width="180" height="380"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="180" height="380"> 
 
 #### 코스 추천
 > 가성비 코스를 추천받고 나만의 코스를 만드는 페이지
@@ -50,6 +50,6 @@
 
 |`피드(코스 추천)`|`검색 페이지(코스)`|`게시물 업로드(코스)`| `상세 페이지(코스)`|
 |-------|-------|-------|-------|
-|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/course.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/course_search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/written.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/post.png"  width="200" height="400"> 
+|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/course.png" width="180" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/course_search.png"  width="180" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/written.png" width="180" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/post.png"  width="180" height="400"> 
 
 
