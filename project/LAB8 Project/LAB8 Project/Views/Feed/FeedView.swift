@@ -21,7 +21,7 @@ struct FeedView: View {
                     .opacity(hideSearchBar ? 0 : 1)
                     .animation(.easeOut.speed(1.5))
                     .padding(.horizontal, 16)
-                    .padding(.vertical, 8)
+                    .padding(.vertical, 9)
                 
             // 검색창 활성화 상태에 따라서 다른 뷰를 보여줌
             if isEditing {
