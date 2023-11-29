@@ -10,16 +10,18 @@ import SwiftUI
 struct MainView: View {
 
     @EnvironmentObject var network: Network
+    @State var selectedTab = 0
     
     var temp: String { String(format: "%.1f", (network.weather.main.temp - 273.15)) }
     var icon: String {network.weather.weather.first?.icon ?? "" }
+    
     
     var body: some View {
         VStack{
             
             // 앱 이름 및 날씨
             HStack{
-                Text("앱 이름")
+                Text("알뜰남녀")
                     .font(.title2)
                 
                 Spacer()
@@ -27,7 +29,8 @@ struct MainView: View {
                 HStack{
                     Image(systemName: SelectIcon())
                         .resizable()
-                        .frame(width: 30, height: 30)
+                        .scaledToFit()
+                        .frame(width: 35, height: 30)
                     Text("\(temp)°")
                         .font(.body)
                         .fontWeight(.bold)
@@ -128,10 +131,13 @@ struct MainView: View {
                 }
                 
             }
+            .padding(.leading, 10)
+            .padding(.trailing, 10)
+            
+            
+            TabView(selectedTab: selectedTab)
+            
         }
-        
-        
-        
     }
     
     // 온도 기호
@@ -179,6 +185,75 @@ struct CellContent: View {
         }
     }
 }
+
+struct TabView: View{
+    
+    var selectedTab: Int
+    
+    var body: some View {
+        
+        ZStack{
+            HStack{
+                ForEach((TabbedItem.allCases), id: \.self){ item in
+                    Button{
+                        $selectedTab = item.rawValue
+                    } label: {
+                        CustomTabItem(imageName: item.iconName, isActive: (selectedTab == item.rawValue))
+                    }
+                }
+            }
+        }
+        
+        .background(Color(UIColor(hexCode: "#FDF0F0")))
+    }
+    
+}
+
+
+extension MainView{
+    func CustomTabItem(imageName: String, isActive: Bool) -> some View{
+        HStack(spacing: 10){
+            Spacer()
+                .frame(width: 30)
+            Image(systemName: imageName)
+                .resizable()
+                .renderingMode(.template)
+                .padding(10)
+                .background(isActive ? Color(UIColor(hexCode: "#F9688D")): .clear)
+                .foregroundStyle(isActive ? .white : .gray)
+                
+                .cornerRadius(20.0)
+                .frame(width: isActive ? 40 : 50, height: isActive ? 40 : 50)
+            Spacer()
+                .frame(width: 20)
+        }
+        .frame(width: 100, height: 60)
+
+    }
+
+}
+
+extension UIColor {
+    
+    convenience init(hexCode: String, alpha: CGFloat = 1.0) {
+        var hexFormatted: String = hexCode.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).uppercased()
+        
+        if hexFormatted.hasPrefix("#") {
+            hexFormatted = String(hexFormatted.dropFirst())
+        }
+        
+        assert(hexFormatted.count == 6, "Invalid hex code used.")
+        
+        var rgbValue: UInt64 = 0
+        Scanner(string: hexFormatted).scanHexInt64(&rgbValue)
+        
+        self.init(red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
+                  green: CGFloat((rgbValue & 0x00FF00) >> 8) / 255.0,
+                  blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
+                  alpha: alpha)
+    }
+}
+
 
 
 #Preview {
