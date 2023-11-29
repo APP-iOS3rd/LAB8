@@ -34,9 +34,9 @@ struct HomeView: View {
                     }
                 }
                 .padding(30)
-                .onAppear{
-                    network.getWeather()
-                }
+//                .onAppear{
+//                    network.getWeather()
+//                }
                 
                 // 홈 화면
                 ScrollView{
