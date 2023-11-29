@@ -31,12 +31,22 @@
 |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/main.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/mypage.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400">
 
 > 카테고리 별로 맛집 또는 코스를 추천해주는 페이지
-- 지역별 맛집, 코스 추천
+- 지역별 맛집, 놀거리 추천
 - 필터 기능으로 다양한 선택 기준을  제시
 - 상세페이지 에서 음식점, 카페에 대한 세부 정보를 제공
 
-|`메인 페이지`|`게시판 페이지`|`게시판 페이지(필터)`| `상세 페이지`|
+|`메인 페이지`|`게시판 페이지`|`게시판(필터)`| `상세 페이지(시설)`|
 |-------|-------|-------|-------|
-|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/detail.png"  width="200" height="400"> 
+|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400"> 
+
+> 가성비 코스를 추천받고 나만의 코스를 만드는 페이지
+- 피드 형식으로 사진과 정보를 제공
+- 검색 기능을 통해 특정 키워드 검색
+- 이미지, 제목, 내용 입력이 가능한 글작성 기능
+- 맛춤형 코스와 리뷰를 직관적인 UI로 제공
+
+|`피드(코스 추천)`|`검색 페이지(코스)`|`게시물 업로드(코스)`| `상세 페이지(코스)`|
+|-------|-------|-------|-------|
+|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/course.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/course_search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/written.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/post.png"  width="200" height="400"> 
 
 
