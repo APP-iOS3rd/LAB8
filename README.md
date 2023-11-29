@@ -22,7 +22,21 @@
 
 ## 페이지 구성
 > 개인정보를 담는 페이지
+- 소셜 로그인 기능 구현
+- 유저가 좋아요, 업로드한 게시물 확인가능
+- 설정 페이지에서 앱의 정보와 기타 정보를 확인 가능
 
 |`시작 페이지(로그인)`|`마이페이지`|`설정 페이지`|
 |-------|-------|-------|
 |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/main.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/mypage.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400">
+
+> 카테고리 별로 맛집 또는 코스를 추천해주는 페이지
+- 지역별 맛집, 코스 추천
+- 필터 기능으로 다양한 선택 기준을  제시
+- 상세페이지 에서 음식점, 카페에 대한 세부 정보를 제공
+
+|`메인 페이지`|`게시판 페이지`|`게시판(필터)`| `상세 페이지`|
+|-------|-------|-------|-------|
+|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400"> 
+
+
