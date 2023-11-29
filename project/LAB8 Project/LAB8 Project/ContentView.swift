@@ -20,10 +20,10 @@ struct ContentView: View {
                 MainView()
                     .tag(0)
                 
-                CommunityView()
+                FeedView()
                     .tag(1)
                 
-                FeedView()
+                SearchView()
                     .tag(2)
                 
                 MyPageView()

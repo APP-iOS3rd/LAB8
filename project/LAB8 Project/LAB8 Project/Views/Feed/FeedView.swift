@@ -12,7 +12,6 @@ struct FeedView: View {
     @State var hideSearchBar = false
     @State var searchText: String = ""
     @State var isEditing: Bool = false
-    @State var isPresented : Bool = false
     
     var body: some View {
         VStack {
@@ -25,15 +24,6 @@ struct FeedView: View {
                     .padding(.vertical, 8)
             
             VStack(alignment: .leading){
-                Button(action: filterButton, label: {
-                    Text("필터")
-                })
-                .sheet(isPresented: $isPresented, content: {
-                    FIlterView()
-                        .presentationDetents([.fraction(0.8)])
-                        .presentationCornerRadius(50)
-                    
-                })
                 Divider()
             }
             .padding(.horizontal, 20)
@@ -47,11 +37,6 @@ struct FeedView: View {
                     .offset(y: hideSearchBar ? -40 : 0)
             }
         }
-    }
-    
-    // 필터 on, off 함수
-    func filterButton() {
-        isPresented = true
     }
 }
 

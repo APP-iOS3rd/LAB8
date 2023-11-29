@@ -22,6 +22,8 @@
 		6105AF042B14FE49008962D5 /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105AF032B14FE49008962D5 /* MyPageView.swift */; };
 		6105AF062B14FE66008962D5 /* WeatherNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105AF052B14FE66008962D5 /* WeatherNetwork.swift */; };
 		6105AF082B14FE6E008962D5 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105AF072B14FE6E008962D5 /* Weather.swift */; };
+		612B288E2B17B5DA00408022 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612B288D2B17B5DA00408022 /* SearchView.swift */; };
+		61B399792B17C1B4002D689E /* SearchFilterVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B399782B17C1B4002D689E /* SearchFilterVIew.swift */; };
 		82876C362B157D4000915347 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82876C352B157D4000915347 /* FeedView.swift */; };
 		82876C3B2B15837900915347 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82876C3A2B15837900915347 /* SearchBar.swift */; };
 		82876C3F2B1589C400915347 /* FeedGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82876C3E2B1589C400915347 /* FeedGridView.swift */; };
@@ -50,6 +52,8 @@
 		6105AF032B14FE49008962D5 /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
 		6105AF052B14FE66008962D5 /* WeatherNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetwork.swift; sourceTree = "<group>"; };
 		6105AF072B14FE6E008962D5 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		612B288D2B17B5DA00408022 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		61B399782B17C1B4002D689E /* SearchFilterVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilterVIew.swift; sourceTree = "<group>"; };
 		82876C352B157D4000915347 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		82876C3A2B15837900915347 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		82876C3E2B1589C400915347 /* FeedGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedGridView.swift; sourceTree = "<group>"; };
@@ -125,6 +129,7 @@
 				82876C4A2B15B86D00915347 /* Post */,
 				82876C372B15825600915347 /* Feed */,
 				6105AEFF2B14FE2D008962D5 /* CommunityView.swift */,
+				61B3997A2B17CA1D002D689E /* Search */,
 				6105AF032B14FE49008962D5 /* MyPageView.swift */,
 				529FFECE2B16D32D00BE2A4A /* WrittenView.swift */,
 				526458732B15828E007A640D /* MainView.swift */,
@@ -134,6 +139,15 @@
 				526458792B1657F2007A640D /* AppTabBarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		61B3997A2B17CA1D002D689E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				612B288D2B17B5DA00408022 /* SearchView.swift */,
+				61B399782B17C1B4002D689E /* SearchFilterVIew.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 		82876C372B15825600915347 /* Feed */ = {
@@ -249,6 +263,7 @@
 				82876C4E2B15B9E700915347 /* PostCell.swift in Sources */,
 				82876C412B1591E700915347 /* FeedListView.swift in Sources */,
 				6105AF082B14FE6E008962D5 /* Weather.swift in Sources */,
+				612B288E2B17B5DA00408022 /* SearchView.swift in Sources */,
 				82876C3F2B1589C400915347 /* FeedGridView.swift in Sources */,
 				4521D3D72B16D42800326970 /* DetailView.swift in Sources */,
 				4521D3D92B16D4FF00326970 /* FilterView.swift in Sources */,
@@ -264,6 +279,7 @@
 				82876C4C2B15B88500915347 /* PostView.swift in Sources */,
 				82876C3B2B15837900915347 /* SearchBar.swift in Sources */,
 				82876C432B15944300915347 /* FeedSearchCell.swift in Sources */,
+				61B399792B17C1B4002D689E /* SearchFilterVIew.swift in Sources */,
 				526458782B1654C1007A640D /* CustomTabBarView.swift in Sources */,
 				526458742B15828E007A640D /* MainView.swift in Sources */,
 				6105AEF02B14FDE9008962D5 /* LAB8_ProjectApp.swift in Sources */,
