@@ -1,7 +1,7 @@
 # LAB8 - 알뜰남녀
 가성비 데이트 코스 앱 “알뜰남녀”는 연인, 친구들 사이의 약속에서 경제적인 부담을 줄여주고자 가볍게 즐길 수 있는 데이트 코스를 제안하는 앱입니다.
 
-[동적프로토타입 - 피그마](https://www.figma.com/file/FDoL8bJyHFRGA7dScMOUrR/Lab8_prototype?type=design&node-id=0-1&mode=design&t=yloNyOfp5vQdG4cd-0)
+[동적 프로토타입 - 피그마](https://www.figma.com/file/FDoL8bJyHFRGA7dScMOUrR/Lab8_prototype?type=design&node-id=0-1&mode=design&t=yloNyOfp5vQdG4cd-0)
 <details>
 <summary>앱 프리뷰</summary>
 <div markdown="1">
@@ -33,15 +33,15 @@
 #### 회원관리
 > 개인정보를 담는 페이지
 - 소셜 로그인 기능 구현
-- 유저가 좋아요, 업로드한 게시물 확인가능
+- 유저가 좋아요, 업로드한 게시물 확인 가능
 - 설정 페이지에서 앱의 정보와 기타 정보를 확인 가능
 
 |`시작 페이지(로그인)`|`마이페이지`|`설정 페이지`|
 |-------|-------|-------|
 |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/main.png"  width="180" height="380">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/mypage.png"  width="180" height="380">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="180" height="380">
 
-#### 지역별 놀거리 추천
-> 카테고리 별로 맛집 카페등 놀거리를 추천
+#### 지역별 놀 거리 추천
+> 카테고리 별로 맛집 카페 등 놀 거리를 추천
 - 지역별 맛집, 놀 거리 추천
 - 필터 기능으로 다양한 선택 기준을  제시
 - 상세페이지에서 음식점, 카페에 대한 세부 정보를 제공
@@ -54,8 +54,8 @@
 > 가성비 코스를 추천받고 나만의 코스를 만드는 페이지
 - 피드 형식으로 사진과 정보를 제공
 - 검색 기능을 통해 특정 키워드 검색
-- 이미지, 제목, 내용 입력이 가능한 글작성 기능
-- 맛춤형 코스와 리뷰를 직관적인 UI로 제공
+- 이미지, 제목, 내용 입력이 가능한 글 작성 기능
+- 맞춤형 코스와 리뷰를 직관적인 UI로 제공
 
 |`피드(코스 추천)`|`검색 페이지(코스)`|`게시물 업로드(코스)`| `상세 페이지(코스)`|
 |-------|-------|-------|-------|
