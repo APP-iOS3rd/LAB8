@@ -135,20 +135,7 @@ struct MainView: View {
             .padding(.trailing, 10)
             
             
-            //TabView
-            ZStack{
-                HStack{
-                    ForEach((TabbedItem.allCases), id: \.self){ item in
-                        Button{
-                            selectedTab = item.rawValue
-                        } label: {
-                            CustomTabItem(imageName: item.iconName, isActive: (selectedTab == item.rawValue))
-                        }
-                    }
-                }
-            }
             
-            .background(Color(UIColor(hexCode: "#FDF0F0")))
             
         }
     }
