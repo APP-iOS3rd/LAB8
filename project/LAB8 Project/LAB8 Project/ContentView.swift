@@ -21,7 +21,7 @@ struct ContentView: View {
                 CommunityView()
                     .tag(1)
                 
-                WrittenView()
+                PostView()
                     .tag(2)
                 
                 MyPageView()
