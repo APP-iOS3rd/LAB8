@@ -14,20 +14,37 @@ struct ContentView: View {
     @State var tabSelection: TabBarItem = .home
     
     var body: some View {
-        ZStack(alignment: .bottom){
+        VStack{
+            
             TabView(selection: $selectedTab){
-                HomeView()
+                MainView()
                     .tag(0)
                 
                 CommunityView()
                     .tag(1)
                 
-                PostView()
+                FeedView()
                     .tag(2)
                 
                 MyPageView()
                     .tag(3)
             }
+            
+            
+            //TabView
+            ZStack{
+                HStack{
+                    ForEach((TabbedItem.allCases), id: \.self){ item in
+                        Button{
+                            selectedTab = item.rawValue
+                        } label: {
+                            CustomTabItem(imageName: item.iconName, isActive: (selectedTab == item.rawValue))
+                        }
+                    }
+                }
+            }
+            
+            .background(Color(UIColor(hexCode: "#FDF0F0")))
             
             // 밖
 //            ZStack{
@@ -56,6 +73,27 @@ struct ContentView: View {
 }
 
 // 안
+extension ContentView{
+    func CustomTabItem(imageName: String, isActive: Bool) -> some View{
+        HStack(spacing: 10){
+            Spacer()
+                .frame(width: 30)
+            Image(systemName: imageName)
+                .resizable()
+                .renderingMode(.template)
+                .padding(10)
+                .background(isActive ? Color(UIColor(hexCode: "#F9688D")): .clear)
+                .foregroundStyle(isActive ? .white : .gray)
+                
+                .cornerRadius(20.0)
+                .frame(width: isActive ? 40 : 50, height: isActive ? 40 : 50)
+            Spacer()
+                .frame(width: 20)
+        }
+        .frame(width: 100, height: 60)
+
+    }
+}
 //extension ContentView{
 //    func CustomTabItem(imageName: String, isActive: Bool) -> some View{
 //        HStack(spacing: 10){
