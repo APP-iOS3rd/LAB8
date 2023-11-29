@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4521D3D72B16D42800326970 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521D3D62B16D42800326970 /* DetailView.swift */; };
+		4521D3D92B16D4FF00326970 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521D3D82B16D4FF00326970 /* FilterView.swift */; };
 		526458742B15828E007A640D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526458732B15828E007A640D /* MainView.swift */; };
 		526458762B158C58007A640D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526458752B158C58007A640D /* HomeView.swift */; };
 		526458782B1654C1007A640D /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526458772B1654C1007A640D /* CustomTabBarView.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4521D3D62B16D42800326970 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4521D3D82B16D4FF00326970 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		526458732B15828E007A640D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		526458752B158C58007A640D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		526458772B1654C1007A640D /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 				526458732B15828E007A640D /* MainView.swift */,
 				526458752B158C58007A640D /* HomeView.swift */,
 				526458772B1654C1007A640D /* CustomTabBarView.swift */,
+				4521D3D62B16D42800326970 /* DetailView.swift */,
 				526458792B1657F2007A640D /* AppTabBarView.swift */,
 			);
 			path = Views;
@@ -165,6 +170,7 @@
 			children = (
 				82876C4B2B15B88500915347 /* PostView.swift */,
 				82876C4D2B15B9E700915347 /* PostCell.swift */,
+				4521D3D82B16D4FF00326970 /* FilterView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -244,6 +250,8 @@
 				82876C412B1591E700915347 /* FeedListView.swift in Sources */,
 				6105AF082B14FE6E008962D5 /* Weather.swift in Sources */,
 				82876C3F2B1589C400915347 /* FeedGridView.swift in Sources */,
+				4521D3D72B16D42800326970 /* DetailView.swift in Sources */,
+				4521D3D92B16D4FF00326970 /* FilterView.swift in Sources */,
 				82876C362B157D4000915347 /* FeedView.swift in Sources */,
 				82876C472B159A4300915347 /* UIScreen.swift in Sources */,
 				5264587A2B1657F2007A640D /* AppTabBarView.swift in Sources */,
