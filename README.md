@@ -21,6 +21,7 @@
 - 사용자가 직접 데이트 코스를 작성하고, 다른 사람들의 코스를 탐색할 수 있습니다.
 
 ## 페이지 구성
+#### 회원관리
 > 개인정보를 담는 페이지
 - 소셜 로그인 기능 구현
 - 유저가 좋아요, 업로드한 게시물 확인가능
@@ -30,7 +31,8 @@
 |-------|-------|-------|
 |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/main.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/mypage.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400">
 
-> 카테고리 별로 맛집 또는 코스를 추천해 주는 페이지
+#### 지역별 놀거리 추천
+> 카테고리 별로 맛집 카페등 놀거리를 추천
 - 지역별 맛집, 놀 거리 추천
 - 필터 기능으로 다양한 선택 기준을  제시
 - 상세페이지에서 음식점, 카페에 대한 세부 정보를 제공
@@ -39,6 +41,7 @@
 |-------|-------|-------|-------|
 |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/home.png" width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/search.png"  width="200" height="400">|<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/filter.png" width="200" height="400"> |<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/setting.png"  width="200" height="400"> 
 
+#### 코스 추천
 > 가성비 코스를 추천받고 나만의 코스를 만드는 페이지
 - 피드 형식으로 사진과 정보를 제공
 - 검색 기능을 통해 특정 키워드 검색
