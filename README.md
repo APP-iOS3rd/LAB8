@@ -2,6 +2,15 @@
 가성비 데이트 코스 앱 “알뜰남녀”는 연인, 친구들 사이의 약속에서 경제적인 부담을 줄여주고자 가볍게 즐길 수 있는 데이트 코스를 제안하는 앱입니다.
 
 [동적프로토타입 - 피그마](https://www.figma.com/file/FDoL8bJyHFRGA7dScMOUrR/Lab8_prototype?type=design&node-id=0-1&mode=design&t=yloNyOfp5vQdG4cd-0)
+<details>
+<summary>앱 프리뷰</summary>
+<div markdown="1">
+<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_01.png"  width="180" height="380">
+<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_02.png"  width="180" height="380">
+<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_03.png"  width="180" height="380">
+<img src="https://github.com/APP-iOS3rd/LAB8/blob/main/readme_asset/app_screenshot_04.png"  width="180" height="380">
+</div>
+</details>
 
 ```
 - 본인만의 데이트 코스를 작성 → 인스타 피드처럼 지역별 사람들의 데이트 코스를 구경할 수 있습니다.
