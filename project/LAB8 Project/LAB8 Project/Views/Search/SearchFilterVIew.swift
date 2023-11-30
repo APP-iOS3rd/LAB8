@@ -24,6 +24,7 @@ struct SearchFilterVIew: View {
                             .foregroundStyle(.black)
                     )
             })
+            .padding(.horizontal, 10)
             .sheet(isPresented: $isPresented, content: {
                 FIlterView()
                     .presentationDetents([.fraction(0.8)])
@@ -32,42 +33,46 @@ struct SearchFilterVIew: View {
             })
             Button(action: {}, label: {
                 Text("전체")
-                    .frame(width: 60, height: 40)
+                    .frame(width: 60, height: 35)
                     .foregroundStyle(.black)
                     .overlay(
-                        RoundedRectangle(cornerRadius: 30)
+                        RoundedRectangle(cornerRadius: 20)
                             .stroke(lineWidth: 2)
                             .foregroundStyle(.gray)
+//                            .shadow(radius: 2, x: 0, y: 2)
                     )
             })
             Button(action: {}, label: {
                 Text("놀거리")
-                    .frame(width: 60, height: 40)
+                    .frame(width: 60, height: 35)
                     .foregroundStyle(.black)
                     .overlay(
-                        RoundedRectangle(cornerRadius: 30)
+                        RoundedRectangle(cornerRadius: 20)
                             .stroke(lineWidth: 2)
                             .foregroundStyle(.gray)
+//                            .shadow(radius: 2, x: 0, y: 2)
                 )
             })
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                 Text("맛집")
-                    .frame(width: 60, height: 40)
+                    .frame(width: 60, height: 35)
                     .foregroundStyle(.black)
                     .overlay(
-                        RoundedRectangle(cornerRadius: 30)
+                        RoundedRectangle(cornerRadius: 20)
                             .stroke(lineWidth: 2)
                             .foregroundStyle(.gray)
+//                            .shadow(radius: 2, x: 0, y: 2)
                     )
             })
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
                 Text("카페")
-                    .frame(width: 60, height: 40)
+                    .frame(width: 60, height: 35)
                     .foregroundStyle(.black)
                     .overlay(
-                        RoundedRectangle(cornerRadius: 30)
+                        RoundedRectangle(cornerRadius: 20)
                             .stroke(lineWidth: 2)
                             .foregroundStyle(.gray)
+//                            .shadow(radius: 2, x: 0, y: 2)
                     )
             })
         }

@@ -23,13 +23,13 @@ struct SearchView: View {
     var body: some View {
         VStack{
             VStack(alignment: .leading){
-                SearchBar(text: $searchText, isEditing: $isEditing)
+                SearchViewBar(text: $searchText, isEditing: $isEditing)
                     .offset(y: hideSearchBar ? -40 : 0) // 위치를 이동시키는 offset 사용
                     .opacity(hideSearchBar ? 0 : 1)
                     .animation(.easeOut.speed(1.5))
                     .padding(.horizontal, 16)
                     .padding(.vertical, 8)
-                    .shadow(color: .gray ,radius: 2)
+                    .shadow(color: .gray ,radius: 2, x: 0, y: 2)
                 SearchFilterVIew()
 //                Divider()
             }
@@ -64,8 +64,8 @@ struct SearchView: View {
                                     
                                     Button(action: presslike, label: {
                                         Image(systemName: "heart")
-                                            .shadow(radius: 3)
                                             .foregroundColor(.black)
+                                            .shadow(radius: 3)
 //                                            .foregroundStyle(like ? .red : .gray)
 //                                            .symbolEffect(.bounce, value: like)
                                     })
@@ -80,7 +80,12 @@ struct SearchView: View {
         }
     }
     func presslike() {
-        like = like ? true : false
+        if like == false {
+            like = true
+        } else {
+            like = false
+        }
+//        like = like ? true : false
     }
 }
 
