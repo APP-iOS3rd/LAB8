@@ -9,7 +9,8 @@ import SwiftUI
 
 struct SearchFilterVIew: View {
     
-    @State var isPresented : Bool = false
+//    @State var isPresented : Bool = false
+    @Binding var isPresented : Bool
     
     var body: some View {
         HStack{
@@ -83,6 +84,6 @@ struct SearchFilterVIew: View {
     }
 }
 
-#Preview {
-    SearchFilterVIew()
-}
+//#Preview {
+//    SearchFilterVIew(isPresented: false)
+//}

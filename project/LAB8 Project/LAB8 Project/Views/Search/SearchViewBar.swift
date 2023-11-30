@@ -10,7 +10,7 @@ import SwiftUI
 // 서치바UI
 struct SearchViewBar: View {
     @Binding var text: String
-    @Binding var isEditing: Bool
+    @Binding var Editing: Bool
     var body: some View {
         HStack {
             TextField("", text:$text)
@@ -21,35 +21,44 @@ struct SearchViewBar: View {
                 .overlay(
                         HStack {
                             Spacer()
-                                if isEditing == true {
-                                    Button(action: {
-                                        isEditing = false
-                                        text = ""
-                                        UIApplication.shared.endEditing()
-                                    }, label: {
-                                        Text("X")
-                                    })
-                                } else {
-                                    Button(action: {
-                                    
-                                    }, label: {
-                                        Image(systemName: "magnifyingglass")
-                                            .font(.title2)
-                                            .foregroundColor(.gray)
-                                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
-                                            .padding(.trailing, 8)
-                                    })
-                                }
+                            if !text.isEmpty {
+                                Button(action: textEdit, label: {
+                                    Image(systemName: "xmark")
+                                        .font(.title2)
+                                        .foregroundColor(.gray)
+                                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
+                                        .padding(.trailing, 8)
+                                })
+                            } else if text.isEmpty || Editing == false{
+                                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                    Image(systemName: "magnifyingglass")
+                                        .font(.title2)
+                                        .foregroundColor(.gray)
+                                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
+                                        .padding(.trailing, 8)
+                                })
+                            } else {
+                                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                                    Image(systemName: "magnifyingglass")
+                                        .font(.title2)
+                                        .foregroundColor(.gray)
+                                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
+                                        .padding(.trailing, 8)
+                            })
                         }
-                            .padding()
+                    }
+                        .padding()
                 )
                 .onTapGesture {
-                    isEditing = true
+                    Editing = true
                 }
         }
+    }
+    func textEdit() {
+            text = ""
     }
     
 }
 #Preview {
-    SearchViewBar(text: .constant("some text"), isEditing: .constant(false))
+    SearchViewBar(text: .constant("some text"), Editing: .constant(false))
 }

@@ -14,26 +14,28 @@ struct SearchView: View {
     private let adaptiveColumns = [
         GridItem(.adaptive(minimum: 180))
     ]
+    
     @State var hideSearchBar = false
     @State var searchText: String = ""
-    @State var isEditing: Bool = false
+    @State var Editing: Bool = false
     @State var isPresented : Bool = false
     @State var like : Bool = false
     
     var body: some View {
         VStack{
             VStack(alignment: .leading){
-                SearchViewBar(text: $searchText, isEditing: $isEditing)
+                SearchViewBar(text: $searchText, Editing: $Editing)
                     .offset(y: hideSearchBar ? -40 : 0) // 위치를 이동시키는 offset 사용
                     .opacity(hideSearchBar ? 0 : 1)
                     .animation(.easeOut.speed(1.5))
                     .padding(.horizontal, 16)
                     .padding(.vertical, 8)
                     .shadow(color: .gray ,radius: 2, x: 0, y: 2)
-                SearchFilterVIew()
+                
+                SearchFilterVIew(isPresented: $isPresented)
 //                Divider()
             }
-            ScrollView {
+            ScrollView(showsIndicators: false) {
                 VStack(alignment: .leading){
                     Text("검색결과")
                     Divider()
